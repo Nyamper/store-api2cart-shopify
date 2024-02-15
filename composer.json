@@ -1,0 +1,9 @@
+{
+    "name": "csf/store-api2cart-shopify",
+    "autoload": {
+        "psr-4": {
+            "Csf\\StoreApi2cartShopify\\": "src/"
+        }
+    },
+    "require": {}
+}
