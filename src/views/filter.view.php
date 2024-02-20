@@ -9,13 +9,10 @@
 </head>
 
 <body>
-    <?php
-    $host = $_SERVER["HTTP_HOST"];
-    ?>
     <div class="d-flex justify-content-center">
-        <a href="<?php $host ?>/?filter=all" class="btn btn-outline-primary m-3">ALL</a>
-        <a href="<?php $host ?>/?filter=today" class="btn btn-outline-primary m-3">Today</a>
-        <a href="<?php $host ?>/?filter=yesterday" class="btn btn-outline-primary m-3">Yesterday</a>
+        <a href="/?filter=all" class="btn btn-outline-primary m-3">ALL</a>
+        <a href="/?filter=today" class="btn btn-outline-primary m-3">Today</a>
+        <a href="/?filter=yesterday" class="btn btn-outline-primary m-3">Yesterday</a>
     </div>
 </body>
 
